@@ -60,8 +60,8 @@ if x["cod"] != "404":
 	weather_description = z[0]["description"]
 
 	# print following values
-	tempo = datetime.Now()
-	print(tempo+',' +str(current_temperature)+',' +str(current_pressure)+',' +str(current_humidity)+',' +str(weather_description)+','+city_name)
+	tempo = datetime.now()
+	print(str(tempo)+',' +str(current_temperature)+',' +str(current_pressure)+',' +str(current_humidity)+',' +str(weather_description)+','+city_name)
 
 else:
 	print(" City Not Found ")
